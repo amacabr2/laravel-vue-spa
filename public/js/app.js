@@ -13922,7 +13922,7 @@ __WEBPACK_IMPORTED_MODULE_3_vue___default.a.router = __WEBPACK_IMPORTED_MODULE_9
 __WEBPACK_IMPORTED_MODULE_3_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_6_vue_router__["a" /* default */]);
 
 __WEBPACK_IMPORTED_MODULE_3_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_5_vue_axios___default.a, __WEBPACK_IMPORTED_MODULE_1_axios___default.a);
-__WEBPACK_IMPORTED_MODULE_1_axios___default.a.defaults.baseURL = Object({"MIX_PUSHER_APP_CLUSTER":"mt1","MIX_PUSHER_APP_KEY":"","NODE_ENV":"development"}).MIX_APP_URL + '/api';
+__WEBPACK_IMPORTED_MODULE_1_axios___default.a.defaults.baseURL = '/api';
 __WEBPACK_IMPORTED_MODULE_3_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_4__websanova_vue_auth___default.a, __WEBPACK_IMPORTED_MODULE_8__auth__["a" /* default */]);
 
 __WEBPACK_IMPORTED_MODULE_3_vue___default.a.component('index', __WEBPACK_IMPORTED_MODULE_7__components_Index___default.a);

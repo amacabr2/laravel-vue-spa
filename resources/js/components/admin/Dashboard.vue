@@ -6,13 +6,26 @@
                 Bienvenue sur votre dashboard administrateur
             </div>
         </div>
+
+        <div class="card card-default">
+            <div class="card-header">Liste des utilisateurs</div>
+            <div class="card-body">
+                <userList></userList>
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
+    import userList from '../Userlist'
+
     export default {
         mounted() {
             //
+        },
+
+        components: {
+            userList
         }
     }
 </script>
