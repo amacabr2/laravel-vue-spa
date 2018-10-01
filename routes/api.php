@@ -23,3 +23,8 @@ Route::prefix('auth')->group(function () {
         Route::post('logout', 'AuthController@logout');
     });
 });
+
+Route::group(['middleware' => 'auth:api'], function(){
+    Route::get('users', 'UserController@index')->middleware('isAdmin');
+    Route::get('users/{id}', 'UserController@show')->middleware('isAdminOrSelf');
+});
