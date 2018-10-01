@@ -4,6 +4,7 @@
             <h1>
                 Laravel Vue SPA
             </h1>
+            <navigationMenu></navigationMenu>
         </header>
 
         <div id="content">
@@ -13,13 +14,15 @@
 </template>
 
 <script>
+    import navigationMenu from './Menu.vue'
+
     export default {
         data() {
             return {}
         },
 
         components: {
-            //
+            navigationMenu
         }
     }
 </script>
