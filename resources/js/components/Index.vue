@@ -7,7 +7,7 @@
         </header>
 
         <div id="content">
-            Bienvenue !
+            <router-view></router-view>
         </div>
     </div>
 </template>
@@ -15,10 +15,9 @@
 <script>
     export default {
         data() {
-            return {
-                //
-            }
+            return {}
         },
+
         components: {
             //
         }
